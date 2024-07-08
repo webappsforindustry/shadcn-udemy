@@ -38,7 +38,7 @@ const nextConfig = {
           {
             key: 'Content-Security-Policy',
             value:
-              "base-uri 'self'; child-src 'self'; connect-src 'self'; default-src 'none'; font-src 'self' *.vercel.app; form-action 'self'; frame-ancestors 'self'; frame-src 'self'; img-src 'self' blob: data:;manifest-src 'self'; media-src 'self' blob: data:; object-src 'none'; sandbox allow-popups allow-forms allow-popups-to-escape-sandbox allow-scripts allow-presentation; script-src 'self'; script-src-attr 'self'; script-src-elem 'self'; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' *.vercel.app blob:;",
+              "base-uri 'self'; child-src 'self'; connect-src 'self'; default-src 'none'; font-src 'self' *.vercel.app; form-action 'self'; frame-ancestors 'self'; frame-src 'self'; img-src 'self' blob: data:;manifest-src 'self'; media-src 'self' blob: data:; object-src 'none'; sandbox allow-popups allow-forms allow-popups-to-escape-sandbox allow-scripts allow-presentation; script-src 'self'; script-src-attr 'self'; script-src-elem 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self' 'unsafe-inline'; worker-src 'self' *.vercel.app blob:;",
           },
           {
             key: 'Strict-Transport-Security',
